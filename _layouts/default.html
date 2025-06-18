@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="dark">
     <head>
-        <link href="static/structure/bootstrap/bootstrap.min.css" rel="stylesheet">
-        <link href="static/style.css" rel="stylesheet">
+        <link href="{{ '/static/structure/bootstrap/bootstrap.min.css' | relative_url }}" rel="stylesheet">
+        <link href="{{ 'static/style.css' | relative_url }}" rel="stylesheet">
 
         <title>{{ page.title }}</title>
 
-        <link rel="icon" href="files/logo/colour-icon-square-top.png" type="image/png">
+        <link rel="icon" href="{{ '/files/logo/colour-icon-square-top.png' | relative_url }}" type="image/png">
     </head>
 
 
@@ -20,7 +20,7 @@
         <nav class="navbar navbar-expand fixed-top">
         <div class="container-fluid">
             <a href="#">
-                <img src="files/logo/colour-icon-square-top.png" class="corner-logo" width="50" alt="Logo">
+                <img src="{{ '/files/logo/colour-icon-square-top.png' | relative_url }}" class="corner-logo" width="50" alt="Logo">
             </a>
 
             <a class="navbar-brand" href="#">
@@ -30,7 +30,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto left-aligned">
                 <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="{{ '/' | relative_url }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Team
                 </a>
                 <ul class="dropdown-menu">
@@ -40,13 +40,13 @@
                 </li>
 
                 <li class="nav-item">
-                <a class="nav-link" href="#">Contacts</a>
+                <a class="nav-link" href="{{ '/contacts.html' | relative_url }}">Contacts</a>
                 </li>
             </ul>
             </div>
         </div>
         </nav>
 
-        <script src="static/structure/bootstrap/bootstrap.bundle.min.js"></script>
+        <script src="{{ '/static/structure/bootstrap/bootstrap.bundle.min.js' | relative_url }}"></script>
     </body>
 </html>
