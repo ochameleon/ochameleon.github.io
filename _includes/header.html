@@ -1,29 +1,19 @@
-<nav class="navbar navbar-expand fixed-top">
+<header class="bg-hero-header">
     <div class="container-fluid">
-        <a href="{{ '/' | relative_url }}">
-            <img src="{{ '/files/logo/colour-icon-square-top.png' | relative_url }}" class="corner-logo" width="50" alt="Logo">
-        </a>
-
-        <a class="navbar-brand" href="{{ '/' | relative_url }}">
-            OChameleon
-        </a>
-
-        <div class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto left-aligned">
-            <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="{{ '/' | relative_url }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Team
-            </a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="https://google.com">Members</a></li>
-                <li><a class="dropdown-item" href="https://ecosia.com">Attributions</a></li>
-            </ul>
-            </li>
-
-            <li class="nav-item">
-            <a class="nav-link" href="{{ '/contacts.html' | relative_url }}">Contacts</a>
-            </li>
-        </ul>
+        <div class="row">
+            <div class="col">
+                <br>
+            </div>
+        </div>
+        <div class="row h-100 align-items-center">
+            <div class="col">
+                <h1 class="display-4 title mb-2 text-center">
+                {{ page.title }}
+                </h1>
+                <h2 class="lead title mb-5 text-center">
+                {{ page.subtitle }}
+                </h2>
+            </div>
         </div>
     </div>
-</nav>
+</header>
