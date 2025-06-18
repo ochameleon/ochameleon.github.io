@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>{{ page.title }}</title>
-    <link href="{{ '/static/structure/bootstrap/bootstrap.min.css' | relative_url }}" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="UTF-8">
 
-<body class="bg-body text-body">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-        <a class="navbar-brand" href="{{ '/' | relative_url }}">My Site</a>
-        <div class="collapse navbar-collapse">
-        <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="{{ '/' | relative_url }}">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="{{ '/contacts' | relative_url }}">Contacts</a></li>
-        </ul>
+        <link href="{{ '/static/structure/bootstrap/bootstrap.min.css' | relative_url }}" rel="stylesheet">
+        <link href="{{ 'static/style.css' | relative_url }}" rel="stylesheet">
+        
+        <title>{{ page.title }}</title>
+
+        <link rel="icon" href="{{ '/files/logo/colour-icon-square-top.png' | relative_url }}" type="image/png">
+    </head>
+
+    <body class="bg-body text-body">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="{{ '/' | relative_url }}">My Site</a>
+            <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="{{ '/' | relative_url }}">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ '/contacts' | relative_url }}">Contacts</a></li>
+            </ul>
+            </div>
         </div>
-    </div>
-    </nav>
+        </nav>
 
-    <main class="container py-4">
-        {{ content }}
-    </main>
-</body>
+        <main class="container py-4">
+            {{ content }}
+        </main>
+
+        <script src="{{ '/static/structure/bootstrap/bootstrap.bundle.min.js' | relative_url }}"></script>
+    </body>
 </html>
