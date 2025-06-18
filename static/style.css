@@ -25,21 +25,7 @@ html, body {
     
     font-family: "Monocode";
     font-size:   16px;
-
-    margin-top:    12px;
-    margin-bottom: 12px;
-    margin-left:   0px;
-    margin-right:  0px;
-}
-
-div {
-    color: rgb(212, 212, 212);
     
-    font-family: "Monocode";
-    font-size:   16px;
-
-    margin-top:    12px;
-    margin-bottom: 12px;
     margin-left:   0px;
     margin-right:  0px;
 }
