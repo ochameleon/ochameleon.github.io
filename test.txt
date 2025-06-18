@@ -11,12 +11,6 @@
 
 
     <body class="bg-body text-body">
-        {% include navbar.html %}
-
-        <main class="container py-4">
-            {{ content }}
-        </main>
-        
         <nav class="navbar navbar-expand fixed-top">
         <div class="container-fluid">
             <a href="#">
@@ -46,6 +40,10 @@
             </div>
         </div>
         </nav>
+
+        <main class="container py-4">
+            {{ content }}
+        </main>
 
         <script src="{{ '/static/structure/bootstrap/bootstrap.bundle.min.js' | relative_url }}"></script>
     </body>
