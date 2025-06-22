@@ -1,6 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container-fluid">
-        <img src="{{ '/files/logo/colour-icon-square-top.png' | relative_url }}" href="{{ '/' | relative_url }}" class="corner-logo" width="50" alt="Logo">
+        <a href="{{ '/' | relative_url }}">
+            <img src="{{ '/files/logo/colour-icon-square-top.png' | relative_url }}" class="corner-logo" width="50" alt="Logo">
+        </a>
         <a class="navbar-brand" href="{{ '/' | relative_url }}">
             <b>OChameleon</b>
         </a>
@@ -11,14 +13,12 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
-                    <a class="nav-link active dropdown-toggle" href="{{ '/' | relative_url }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Learn
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="{{ '/documentation.html' | relative_url }}">Documentation</a></li>
-                        <li><a class="dropdown-item" href="{{ '/playground.html' | relative_url }}">Playground</a></li>
-                    </ul>
+                <li class="nav-item">
+                    <a class="nav-link active" href="{{ '/documentation.html' | relative_url }}">Documentation</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="{{ '/play.html' | relative_url }}">Play</a>
                 </li>
 
                 <li class="nav-item">

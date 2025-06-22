@@ -18,6 +18,10 @@
     font-style:  bold;
 }
 
+.nav-link:hover {
+    color: rgb(33, 151, 33);
+}
+
 html, body {
     background-color: rgb(22, 22, 22);
 
