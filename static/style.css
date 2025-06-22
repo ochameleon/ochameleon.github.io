@@ -24,7 +24,11 @@
 
 
 .navbar-brand {
-    font-size: large;
+    font-size: x-large;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: rgb(255, 255, 255)
 }
 
 .navbar-nav .nav-item .nav-link:hover {
