@@ -5,23 +5,27 @@
         </a>
 
         <a class="navbar-brand" href="{{ '/' | relative_url }}">
-            OChameleon
+           <b>OChameleon</b>
         </a>
 
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto left-aligned">
                 <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="{{ '/' | relative_url }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Team
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="https://google.com">Members</a></li>
-                    <li><a class="dropdown-item" href="https://ecosia.com">Attributions</a></li>
-                </ul>
+                    <a class="nav-link dropdown-toggle" href="{{ '/' | relative_url }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Learn
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="{{ '/documentation.html' | relative_url }}">Documentation</a></li>
+                        <li><a class="dropdown-item" href="{{ '/playground.html' | relative_url }}">Playground</a></li>
+                    </ul>
                 </li>
 
                 <li class="nav-item">
-                <a class="nav-link" href="{{ '/contacts.html' | relative_url }}">Contacts</a>
+                    <a class="nav-link" href="{{ '/team.html' | relative_url }}">Team</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ '/contacts.html' | relative_url }}">Contacts</a>
                 </li>
             </ul>
         </div>

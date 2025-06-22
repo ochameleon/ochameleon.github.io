@@ -24,7 +24,6 @@ html, body {
     color: rgb(212, 212, 212);
     
     font-family: "Monocode";
-    font-size:   16px;
     
     margin-left:   0px;
     margin-right:  0px;
@@ -85,7 +84,6 @@ pre {
     color: rgb(212, 212, 212);
     
     font-family: "Monocode";
-    font-size:   16px;
 
     margin-top:    12px;
     margin-bottom: 12px;
@@ -105,7 +103,6 @@ math {
     color: rgb(212, 212, 212);
     
     font-family: "Monocode";
-    font-size:   15px;
 
     white-space: pre;
 
