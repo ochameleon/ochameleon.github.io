@@ -18,9 +18,23 @@
     font-style:  bold;
 }
 
+
+
+
+
+
+.navbar-brand {
+    font-size: large;
+}
+
 .navbar-nav .nav-item .nav-link:hover {
     color: rgb(33, 151, 33);
 }
+
+
+
+
+
 
 html, body {
     background-color: rgb(22, 22, 22);
