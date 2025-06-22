@@ -18,7 +18,7 @@
     font-style:  bold;
 }
 
-.navbar-nav .nav-link:hover {
+.navbar-nav .nav-item .nav-link:hover {
     color: rgb(33, 151, 33);
 }
 
