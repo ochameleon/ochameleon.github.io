@@ -25,8 +25,23 @@ footer {
     background-color: rgb(0, 0, 0);
 }
 
-.navbar-brand {
+.corner-name {
     font-size: x-large;
+    color: rgb(255, 255, 255);
+}
+
+.corner-name a {
+    text-decoration: bold;
+    color: rgb(255, 255, 255);
+}
+
+.corner-name a:hover {
+    color: rgb(33, 151, 33);
+}
+
+.corner-name a.active {
+    color: rgb(33, 151, 33);
+    text-decoration: underline;
 }
 
 .navbar-nav .nav-item .nav-link {
