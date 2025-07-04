@@ -1,21 +1,11 @@
 @font-face {
     font-family: "Monocode";
     
-    src: url('assets/fonts/monocode/monocode-light.ttf');
-    src: url('assets/fonts/monocode/monocode-light.ttf') format('truetype');
+    src: url('assets/fonts/monomath-light.ttf');
+    src: url('assets/fonts/monomath-light.ttf') format('truetype');
     
     font-weight: normal;
     font-style:  normal;
-}
-
-@font-face {
-    font-family: "Monocode";
-    
-    src: url('assets/fonts/monocode/monocode-bold.ttf');
-    src: url('assets/fonts/monocode/monocode-bold.ttf') format('truetype');
-    
-    font-weight: bold;
-    font-style:  bold;
 }
 
 
