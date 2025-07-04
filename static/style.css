@@ -32,10 +32,7 @@ footer {
 }
 
 .navbar-brand img {
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0.5rem;
+  margin: 0.25rem;
   padding: 0;
   display: inline-block;
 }
