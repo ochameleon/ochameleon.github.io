@@ -26,16 +26,12 @@ footer {
 }
 
 .corner-name {
-    font-size: x-large;
-    color: rgb(255, 255, 255);
-}
-
-.corner-name a {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
 
 .corner-name a:hover {
+    text-decoration: none;
     color: rgb(33, 151, 33);
 }
 
