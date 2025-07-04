@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Monocode";
+    font-family: "Monomath";
     
     src: url('assets/fonts/monomath-light.ttf');
     src: url('assets/fonts/monomath-light.ttf') format('truetype');
@@ -40,7 +40,7 @@ html, body {
 
     color: rgb(212, 212, 212);
     
-    font-family: "Monocode";
+    font-family: "Monomath";
     
     margin-left:   0px;
     margin-right:  0px;
@@ -100,7 +100,7 @@ pre {
 
     color: rgb(212, 212, 212);
     
-    font-family: "Monocode";
+    font-family: "Monomath";
 
     margin-top:    12px;
     margin-bottom: 12px;
@@ -119,7 +119,7 @@ math {
 
     color: rgb(212, 212, 212);
     
-    font-family: "Monocode";
+    font-family: "Monomath";
 
     white-space: pre;
 
