@@ -46,6 +46,12 @@ html, body {
     margin-right:  0px;
 }
 
+@media (max-width: 576px) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
 nav {
     background-color: rgb(0, 0, 0);
 }
@@ -66,27 +72,27 @@ hr {
 
 h1 {
     font-weight: bold;
-    font-size:   2.5em;
+    font-size:   2.5rem;
 }
 
 h2 {
     font-weight: bold;
-    font-size:   1.5em;
+    font-size:   1.5rem;
 }
 
 h3 {
     font-weight: bold;
-    font-size:   1.25em;
+    font-size:   1.25rem;
 }
 
 h4 {
     font-weight: bold;
-    font-size:   1.0em;
+    font-size:   1.0rem;
 }
 
 h5 {
     font-weight: bold;
-    font-size:   0.75em;
+    font-size:   0.75rem;
 }
 
 pre {
