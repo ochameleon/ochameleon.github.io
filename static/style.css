@@ -64,7 +64,7 @@ html, body {
     color: rgb(212, 212, 212);
     
     font-family: "Monomath";
-    font-size: 20px;
+    font-size: 18px;
 
     height: 100%;
 
@@ -128,27 +128,6 @@ pre {
     color: rgb(212, 212, 212);
     
     font-family: "Monomath";
-
-    margin-top:    12px;
-    margin-bottom: 12px;
-    margin-left:   0px;
-    margin-right:  0px;
-}
-
-math {
-    display: block;
-
-    resize: none;
-    overflow: hidden;
-    max-width: 100%;
-
-    background-color:rgb(22, 22, 22);
-
-    color: rgb(212, 212, 212);
-    
-    font-family: "Monomath";
-
-    white-space: pre;
 
     margin-top:    12px;
     margin-bottom: 12px;
