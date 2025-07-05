@@ -26,15 +26,18 @@ footer {
 }
 
 .navbar-brand b {
-  margin: 0;
-  padding: 0;
-  display: inline-block;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
 }
 
 .navbar-brand img {
-  margin: 0.25rem;
-  padding: 0;
-  display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0.25rem;
+    padding: 0;
+    display: inline-block;
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -61,7 +64,8 @@ html, body {
     color: rgb(212, 212, 212);
     
     font-family: "Monomath";
-    
+    font-size: 20px;
+
     height: 100%;
 
     margin-left:   0px;
