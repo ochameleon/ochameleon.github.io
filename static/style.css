@@ -9,6 +9,10 @@
 }
 
 
+
+
+
+
 :root {
     --main-background-color: rgb(18, 18, 18);
     --nav-backgroung-color: rgb(0, 0, 0);
@@ -42,6 +46,13 @@ html[data-bs-theme="light"] {
     --main-button-bg: #0d6efd;
     --main-button-text: #ffffff;
 }
+
+
+
+
+
+
+
 
 
 
@@ -182,4 +193,63 @@ sup {
 
 .editable:focus {
     box-shadow: 0 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card {
+    background-color: var(--card-bg);
+    border-color: var(--card-border);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    border-radius: 0.75rem; /* Rounded corners for cards */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.btn-theme-toggle {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    border-radius: 0.5rem; /* Rounded corners for button */
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-theme-toggle:hover {
+    transform: translateY(-2px); /* Slight lift on hover */
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+/* Ensure responsive layout for the container */
+.container {
+    max-width: 960px; /* Max width for content */
+    padding: 1rem;
+}
+
+/* Adjust button position for better mobile view */
+.theme-toggle-container {
+    position: absolute; /* Position relative to the nearest positioned ancestor */
+    top: 1rem; /* From top */
+    right: 1rem; /* From right */
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+@media (max-width: 576px) {
+    .theme-toggle-container {
+        top: 0.5rem;
+        right: 0.5rem;
+    }
 }
