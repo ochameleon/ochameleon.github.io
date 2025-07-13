@@ -22,6 +22,16 @@
                     <a class="nav-link {% if page.url == '/contacts.html' %}active{% endif %}" href="{{ '/contacts.html' | relative_url }}">Contacts</a>
                 </li>
             </ul>
+
+            <div class="theme-toggle-container">
+                <button id="themeToggle" class="btn btn-theme-toggle d-flex align-items-center">
+                    <!--
+                        <i class="fas fa-sun me-2" id="sunIcon"></i>
+                        <i class="fas fa-moon me-2 d-none" id="moonIcon"></i>
+                    -->
+                    <span>Toggle Theme</span>
+                </button>
+            </div>
         </div>
     </div>
 </nav>

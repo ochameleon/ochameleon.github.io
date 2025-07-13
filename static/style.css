@@ -20,12 +20,22 @@
     --footer-background-color: rgb(0, 0, 0);
     --pre-background-color: rgb(30, 30, 30);
 
-    --main-text-color: rgb(212, 212, 212);
-    --unclicked-text-color: rgb(255, 255, 255);
+    --main-text-color: rgb(85, 86, 89);
+    --unclicked-text-color: rgb(0, 0, 0);
     --clicked-text-color: rgb(33, 151, 33);
 }
 
+html[data-bs-theme="dark"] {
+    --main-background-color: rgb(255, 255, 255);
+    --nav-background-color: rgb(250, 248, 243);
+    --header-background-color: rgb(22, 70, 22);
+    --footer-background-color: rgb(250, 248, 243);
+    --pre-background-color: rgb(225, 225, 225);
 
+    --main-text-color: rgb(0, 0, 0);
+    --unclicked-text-color: rgb(255, 255, 255);
+    --clicked-text-color: rgb(33, 151, 33);
+}
 
 
 
