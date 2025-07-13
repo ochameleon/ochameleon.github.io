@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (savedTheme) {
         setTheme(savedTheme);
     } else {
-        setTheme('dark');
+        setTheme('light');
     }
 
     // Toggle theme on button click
