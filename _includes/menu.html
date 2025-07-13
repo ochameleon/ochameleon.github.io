@@ -1,13 +1,9 @@
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top p-2">
+<nav class="navbar navbar-expand-lg fixed-top p-2">
     <div class="container-fluid">
         <a href="{{ '/' | relative_url }}" class="navbar-brand fs-5">
             <img src="{{ '/files/logo/colour-icon-square-top.png' | relative_url }}" width="42" alt="Logo"><b>OChameleon</b> 
         </a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
+        
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -26,6 +22,16 @@
                     <a class="nav-link {% if page.url == '/contacts.html' %}active{% endif %}" href="{{ '/contacts.html' | relative_url }}">Contacts</a>
                 </li>
             </ul>
+
+            <!--
+            <div class="theme-toggle-container">
+                <button id="themeToggle" class="btn btn-theme-toggle d-flex align-items-center">
+                        <i class="fas fa-sun me-2" id="sunIcon"></i>
+                        <i class="fas fa-moon me-2 d-none" id="moonIcon"></i>
+                    <span>Toggle Theme</span>
+                </button>
+            </div>
+            -->
         </div>
     </div>
 </nav>
