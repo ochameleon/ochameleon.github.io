@@ -145,10 +145,24 @@ footer {
     text-decoration: underline;
 }
 
-a .footer-brand {
-    color: var(--link-color);
-    text-decoration: none;
-    font-size: 0.63rem;
+.footer-brand {
+    color: var(--link-color) !important;
+    text-decoration: none !important;
+}
+
+.navbar-brand img {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0.15rem;
+    padding: 0;
+    display: inline-block;
+}
+
+.navbar-brand b {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
 }
 
 .navbar-brand img {
@@ -176,4 +190,16 @@ a .footer-brand {
 
 .bg-success {
     background-color: var();
+}
+
+.fs-7 {
+    font-size: 0.75rem;
+}
+
+.fs-8 {
+    font-size: 0.5rem;
+}
+
+.fs-9 {
+    font-size: 0.25;
 }
