@@ -145,8 +145,25 @@ footer {
     text-decoration: underline;
 }
 
-.footer-brand {
+a .footer-brand {
+    color: var(--link-color);
+    text-decoration: none;
     font-size: 0.63rem;
+}
+
+.navbar-brand img {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0.13rem;
+    padding: 0;
+    display: inline-block;
+}
+
+.navbar-brand b {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
 }
 
 .editable {
