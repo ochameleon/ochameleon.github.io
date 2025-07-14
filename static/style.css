@@ -145,6 +145,10 @@ footer {
     text-decoration: underline;
 }
 
+.footer-brand {
+    font-size: 0.63rem;
+}
+
 .editable {
     outline: none !important;
 }
