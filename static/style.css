@@ -118,7 +118,12 @@ footer {
 }
 
 .navbar-brand {
-    margin: 0;
+    font-size: 1.5rem;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 2rem;
     padding: 0;
     display: inline-block;
 }
@@ -148,19 +153,6 @@ footer {
 .footer-brand {
     color: var(--link-color) !important;
     text-decoration: none !important;
-}
-
-.footer-brand img {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0.8rem;
-    padding: 0;
-    display: inline-block;
-}
-
-.footer-brand {
-    font-size: 0.63rem;
 
     margin: 0;
     padding: 0;
@@ -171,7 +163,7 @@ footer {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
-    margin-right: 0.13rem;
+    margin-right: 0.20rem;
     padding: 0;
     display: inline-block;
 }
